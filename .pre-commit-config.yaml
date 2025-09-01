@@ -50,3 +50,8 @@ repos:
     hooks:
       - id: check-github-actions
       - id: check-github-workflows
+
+  -   repo: https://github.com/google/google-java-format
+      rev: v1.15.0
+      hooks:
+      -   id: google-java-format
